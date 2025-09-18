@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build cpp project with g++",
+            "label": "build main.exe",
             "type": "shell",
             "command": "g++",
             "args": 
@@ -10,13 +10,13 @@
                 "-std=c++20",
                 "-o",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/hot100/56_merge.cpp"
+                "${workspaceFolder}/hot100/189_rotate.cpp"
             ],
             "group": "build"
         },
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc build active file",
+            "label": "build main.out",
             "command": "g++",
             "args":
             [
@@ -24,7 +24,7 @@
                 "-g",
                 "-o",
                 "${workspaceFolder}/main.out",
-                "${workspaceFolder}/hot100/56_merge.cpp"
+                "${workspaceFolder}/hot100/189_rotate.cpp"
             ],
             "group": {
                 "kind": "build",
