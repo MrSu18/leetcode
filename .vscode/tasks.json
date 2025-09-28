@@ -10,7 +10,7 @@
                 "-std=c++20",
                 "-o",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/hot100/238_productExceptSelf.cpp"
+                "${workspaceFolder}/hot100/41_firstMissingPositive.cpp"
             ],
             "group": "build"
         },
@@ -24,7 +24,7 @@
                 "-g",
                 "-o",
                 "${workspaceFolder}/main.out",
-                "${workspaceFolder}/hot100/238_productExceptSelf.cpp"
+                "${workspaceFolder}/hot100/41_firstMissingPositive.cpp"
             ],
             "group": {
                 "kind": "build",
