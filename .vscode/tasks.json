@@ -7,7 +7,7 @@
             "command": "g++",
             "args": 
             [
-                "-std=c++20",
+                "-std=c++23",
                 "-o",
                 "${workspaceFolder}/main",
                 "${workspaceFolder}/hot100/73_setZeroes.cpp"
@@ -20,7 +20,7 @@
             "command": "g++",
             "args":
             [
-                "-std=c++20",
+                "-std=c++23",
                 "-g",
                 "-o",
                 "${workspaceFolder}/main.out",
