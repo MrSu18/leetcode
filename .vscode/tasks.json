@@ -10,7 +10,7 @@
                 "-std=c++23",
                 "-o",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/hot100/54_spiralOrder.cpp"
+                "${workspaceFolder}/hot100/48_rotate.cpp"
             ],
             "group": "build"
         },
@@ -24,7 +24,7 @@
                 "-g",
                 "-o",
                 "${workspaceFolder}/main.out",
-                "${workspaceFolder}/hot100/54_spiralOrder.cpp"
+                "${workspaceFolder}/hot100/48_rotate.cpp"
             ],
             "group": {
                 "kind": "build",
