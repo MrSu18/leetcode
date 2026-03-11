@@ -10,7 +10,7 @@
                 "-std=c++23",
                 "-o",
                 "${workspaceFolder}/main",
-                "${workspaceFolder}/hot100/240_searchMatrix.cpp"
+                "${workspaceFolder}/hot100/169_getIntersectionNode.cpp"
             ],
             "group": "build"
         },
@@ -24,7 +24,7 @@
                 "-g",
                 "-o",
                 "${workspaceFolder}/main.out",
-                "${workspaceFolder}/hot100/240_searchMatrix.cpp"
+                "${workspaceFolder}/hot100/169_getIntersectionNode.cpp"
             ],
             "group": {
                 "kind": "build",
