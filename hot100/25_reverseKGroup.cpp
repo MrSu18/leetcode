@@ -25,12 +25,30 @@ public:
             list_len++;
             count=count->next;
         }
+        
         ListNode dummy(0,head);
-        while (list_len-=k)
+        ListNode* p0 = &dummy;
+        ListNode* pre = nullptr;
+        ListNode* cur = head;
+
+        //k个一组处理
+        for (; list_len >= k; list_len-=k)
         {
+            for (size_t i = 0; i < k; i++)
+            {
+                ListNode* nxt = cur->next;
+                cur->next = pre;
+                pre = cur; //这个是把pre移到cur的位置，而不是改变指向,或者说是把cur的地址给pre，而之前cur->next的地址变成了之前pre的地址
+                cur = nxt;
+            }
             
+            //把P0指向pre然后把P0的next指向cur
+            ListNode* nxt = p0->next;//记录p0的next的地址
+            p0->next->next = cur;
+            p0->next = pre;
+            p0 = nxt;
         }
-           
+        return dummy.next;
     }
 };
 
